@@ -1,94 +1,3 @@
-/* *{
-    box-sizing: border-box;
-} */
-
-
-
-/* p {
-    height: auto;
-    width: 100%;
-    max-width: 450px;
-    background: rgba(128, 128, 128, 0.622);
-    padding: 20px 30px;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
-    border-radius: 8px;
-    opacity: 0.9;
-    transition: transform 0.3s ease, background 0.3s ease;
-}
-
-p:hover {
-    background: rgba(0, 0, 0, 0.8);
-    transform: translateY(-10px);
-} */
-
-/* p {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
-    height: auto;
-    min-height: 150px;
-}
-
-p:hover {
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
-    transform: translateY(-10px);
-}
-
-div {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
-/* div {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin: 20px;
-    padding: 20px;
-    width: 100%;
-    max-width: 1300px;
-} */
-
-
-/* .loading{
-    background: transparent;
-}
-
-button{
-
-   
-    display: block;
-    color: blue;
-    background: transparent;
-    border: 0;
-}
-
-span{
-    color: white;
-    
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -160,6 +69,13 @@ button {
 button:hover {
     color: #0056b3;
 }
+ img{
+    display: block;
+    margin: 0 auto;
+height: 200px;
+width: 300px;
+margin-bottom: 20px;
+ }
 
 span {
     color: #666;
