@@ -3,6 +3,7 @@ let arrayofNews= []
 let arrayofAuthors= []
 let arrayofImages=[]
 let arrayofDescription =[]
+let originalContent;
 async function getNews(){
     let data = await fetch('https://newsapi.org/v2/everything?q=tesla&from=2024-12-03&sortBy=publishedAt&apiKey=4648b16c1c2e4f258894c57786439837')
     let res= await data.json()
@@ -45,6 +46,7 @@ async function getNews(){
      
 
     }
+    originalContent = document.body.cloneNode(true);
 }
 
 getNews()
@@ -55,17 +57,22 @@ function openNews(index){
 <img src=${arrayofImages[index]} style="padding-top:50px">
 <span style="margin-left:370px ; font-size:25px; width:700px"> ${arrayofNews[index]}</span>
 <span style="padding-left:900px ; padding-top:20px">  ~ ${arrayofAuthors[index]}</span>
-<div style="width:600px ; font-size:22px ; margin-right:500px"> 
+<div style="width:600px ; font-size:22px ; margin-right:550px"> 
 
     ${
         arrayofDescription[index]
     }
     </div>
-<button style="border:1px solid black; padding:10px;margin-left:400px"> back </button>
+<button style="border:1px solid black; padding:10px;margin-left:340px" onClick="goBack()"> back </button>
   `
  document.body.innerHTML = htmldocu 
 
 console.log(arrayofDescription[index])
+}
+
+function goBack(){
+document.body.innerHTML= originalContent.innerHTML
+getNews()
 }
 
 
