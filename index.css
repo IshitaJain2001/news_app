@@ -82,6 +82,7 @@ span {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
     margin-top: 5px;
+    display: block;
 }
 
 .loading {
