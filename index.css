@@ -38,6 +38,12 @@ div {
     align-items: center;
 }
 
+input{
+    height: 40px;
+    width: 500px;
+    margin-left:400px ;
+    padding-left:30px;
+}
 p {
     background-color: #ffffff;
     padding: 20px;
@@ -66,6 +72,13 @@ button {
     transition: color 0.3s ease;
 }
 
+.searchbtn{
+    display: inline-block;
+    height: 38px;
+    width: 60px;
+    border: 1px solid black;
+    
+}
 button:hover {
     color: #0056b3;
 }
@@ -75,6 +88,7 @@ button:hover {
 height: 200px;
 width: 300px;
 margin-bottom: 20px;
+border-radius: 50%;
  }
 
 span {
