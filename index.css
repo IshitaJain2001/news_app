@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+p{
+    height: 180px;
+    width: 300px;
+background: rgba(128, 128, 128, 0.622);
+padding: 35px 70px;
+    
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+   gap: 40px;
+}
+
+.loading{
+    background: transparent;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    display: inline;
+    color: blue;
+    background: transparent;
+    border: 0;
+}
